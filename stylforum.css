@@ -4,9 +4,9 @@
     font-family: times new roman, arial;
     box-sizing: border-box;
 }
-
+/*tabela*/
 body {
-    background-color: lightcyan
+    background-color: white;
 }
 
 header img {
@@ -27,18 +27,18 @@ a.menu {
     color: white;
     text-decoration: none;
     text-align: center;
-    background-color: darkcyan;
+    background-color: cornflowerblue;
     transition: all 1s ease;            
     /*transition czyli przejście z jednego stanu w drugi, all-wszystkie zmiany które określiliśmy, zmiana trwa 0,5 s, ease- typ przejścia*/
 }
 
 a.menu:hover {
-    background-color: blueviolet;
+    background-color: red;
     cursor: pointer;
 }
 
 a.active {
-    background-color: blueviolet;
+    background-color: tomato;
 }
 
 article {
