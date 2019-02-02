@@ -1,0 +1,65 @@
+* {
+    margin: 0;  
+    padding: 0;
+    font-family: times new roman, arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan
+}
+
+header img {
+    width: 60%;
+    display: block;
+    border-radius: 15% 30%;
+}
+
+nav {
+    overflow: hidden;
+}
+
+a.menu {
+    display: block;
+    width: 20%;
+    float: left;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkcyan;
+    transition: all 1s ease;            
+    /*transition czyli przejście z jednego stanu w drugi, all-wszystkie zmiany które określiliśmy, zmiana trwa 0,5 s, ease- typ przejścia*/
+}
+
+a.menu:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+a.active {
+    background-color: blueviolet;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+footer {
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+table img {
+    border-radius: 15% 30%;
+}
+
+
+
